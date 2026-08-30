@@ -1,0 +1,122 @@
+[
+  {
+    "question": "What is the objective of the hospital corporate compliance program?",
+    "ground_truth_answer": "The program establishes structural requirements, operational standards, and oversight mechanisms to ensure adherence to healthcare laws, prevent fraudulent billing, and promote ethical organizational conduct.",
+    "expected_document": "MAN-CMP-001",
+    "expected_clause": "1.1"
+  },
+  {
+    "question": "What are the seven core elements of an effective hospital compliance program?",
+    "ground_truth_answer": "The seven elements are written policies and standards of conduct, a Chief Compliance Officer and Compliance Committee, education and training, open communication channels including anonymous reporting, internal auditing and risk monitoring, disciplinary standards, and prompt corrective action.",
+    "expected_document": "MAN-CMP-001",
+    "expected_clause": "3.1"
+  },
+  {
+    "question": "What does the False Claims Act prohibit?",
+    "ground_truth_answer": "The False Claims Act prohibits submitting false or fraudulent claims for reimbursement.",
+    "expected_document": "MAN-CMP-001",
+    "expected_clause": "3.2"
+  },
+  {
+    "question": "After how much inactivity must hospital computers automatically lock?",
+    "ground_truth_answer": "Computers and clinical terminals must lock automatically after 5 minutes of inactivity.",
+    "expected_document": "MAN-CMP-002",
+    "expected_clause": "4.1"
+  },
+  {
+    "question": "What should staff do when unauthorized access or disclosure of PHI is suspected?",
+    "ground_truth_answer": "Staff must disconnect compromised devices from the network and immediately notify the IT Helpdesk and Privacy Office.",
+    "expected_document": "MAN-CMP-002",
+    "expected_clause": "4.2"
+  },
+  {
+    "question": "Within how many days must affected individuals be notified of a reportable PHI breach?",
+    "ground_truth_answer": "Affected individuals must be notified without unreasonable delay and no later than 60 calendar days following discovery.",
+    "expected_document": "MAN-CMP-002",
+    "expected_clause": "4.2"
+  },
+  {
+    "question": "What information must be discussed during informed consent?",
+    "ground_truth_answer": "The discussion must cover the diagnosis and nature of the procedure, expected benefits and likelihood of success, material risks and complications, alternative treatments including no treatment, and the names of primary attending physicians or surgeons.",
+    "expected_document": "POL-CNS-001",
+    "expected_clause": "3.1"
+  },
+  {
+    "question": "How long is a signed informed consent form valid?",
+    "ground_truth_answer": "A signed informed consent form remains valid for a maximum of 30 calendar days, provided there is no change in the patient's clinical condition or procedure plan.",
+    "expected_document": "POL-CNS-001",
+    "expected_clause": "3.2"
+  },
+  {
+    "question": "What steps should clinicians follow when an incapacitated patient requires urgent intervention and a surrogate cannot be reached?",
+    "ground_truth_answer": "Clinicians should initiate the Emergency Exception Protocol, obtain verbal confirmation and a second signature from an independent attending physician, proceed with necessary interventions, document the event in the EHR within 2 hours, and continue attempts to contact family.",
+    "expected_document": "POL-CNS-002",
+    "expected_clause": "4.1"
+  },
+  {
+    "question": "What must be documented in an emergency consent note?",
+    "ground_truth_answer": "The note must document the life-threatening condition, why delay would increase risk, efforts made to reach surrogates, and signatures of two licensed attending physicians.",
+    "expected_document": "POL-CNS-002",
+    "expected_clause": "5.1"
+  },
+  {
+    "question": "Who is responsible for initiating and documenting the Universal Surgical Checklist?",
+    "ground_truth_answer": "The Circulating Nurse is responsible for initiating, leading, and documenting all three phases of the Universal Surgical Checklist.",
+    "expected_document": "PSP-SAF-001",
+    "expected_clause": "2.1"
+  },
+  {
+    "question": "What is the purpose of the surgical hand antisepsis protocol?",
+    "ground_truth_answer": "The protocol aims to minimize microbial counts on the hands and forearms of surgical team members before invasive surgical procedures.",
+    "expected_document": "SOP-IC-001",
+    "expected_clause": "1.1"
+  },
+  {
+    "question": "Who does the surgical hand antisepsis protocol apply to?",
+    "ground_truth_answer": "It applies to operating room personnel including attending surgeons, surgical residents, scrub nurses, physician assistants, and surgical technologists entering the sterile surgical field.",
+    "expected_document": "SOP-IC-001",
+    "expected_clause": "1.2"
+  },
+  {
+    "question": "How long should the water-based surgical hand scrub last?",
+    "ground_truth_answer": "The first scrub of the day must last 5 continuous minutes, while subsequent procedures require a 3-minute scrub.",
+    "expected_document": "SOP-IC-001",
+    "expected_clause": "4.2"
+  },
+  {
+    "question": "What should happen if a biological indicator shows autoclave failure?",
+    "ground_truth_answer": "The CSSD Supervisor must halt autoclave operations, quarantine the unit, and recall all items processed since the last negative biological test.",
+    "expected_document": "SOP-IC-005",
+    "expected_clause": "5.2"
+  },
+  {
+    "question": "What is the purpose of standardized operating room cleaning and disinfection?",
+    "ground_truth_answer": "It is intended to maintain environmental cleanliness, control bioburden, and prevent surgical site infections.",
+    "expected_document": "SOP-IC-006",
+    "expected_clause": "1.1"
+  },
+  {
+    "question": "What actions must be taken during a Code Pink event?",
+    "ground_truth_answer": "Staff must declare Code Pink using ext. 5555, broadcast the alert, lock down facility perimeter doors, stairwells and elevators, and search assigned areas for suspicious individuals or unauthorized carry bags.",
+    "expected_document": "SOP-OPS-001",
+    "expected_clause": "4.2"
+  },
+  {
+    "question": "Who is authorized to announce an All Clear after a code event?",
+    "ground_truth_answer": "Only the designated Incident Commander, Code Captain, or Security Lead may authorize the Telecommunications Operator to broadcast an All Clear announcement.",
+    "expected_document": "SOP-OPS-001",
+    "expected_clause": "5.1"
+  },
+  {
+    "question": "What personnel are required for transporting a high-risk ICU patient?",
+    "ground_truth_answer": "A Critical Care Registered Nurse and Respiratory Therapist are required for high-risk patients such as those who are intubated, receiving vasoactive infusions, or undergoing invasive arterial monitoring.",
+    "expected_document": "SOP-OPS-003",
+    "expected_clause": "3.1"
+  },
+  {
+    "question": "What should the escort team do if a patient deteriorates severely during transport?",
+    "ground_truth_answer": "The escort team must immediately stop, activate the nearest wall emergency alarm or call ext. 5555, and initiate basic resuscitation.",
+    "expected_document": "SOP-OPS-003",
+    "expected_clause": "5.1"
+  }
+]
